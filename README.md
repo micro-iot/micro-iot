@@ -10,7 +10,9 @@ Yocto based Linux distribution for Internet of Things capable low profile SBCs
 - quality
 
 ### Features
-- Kernel 4.9.73 with OpenWRT patches
+- Linux kernel 4.9.73 (rev. b3e88217e2f95b004da89a0ff931e1dc45d3d094) with OpenWRT patches (OpenWRT rev.
+  c5ca1c9ab65bfe1e6fc74230f8c0121230562b1c)
 - JFFS2 filesystem image
 - flashing via MT7688 u-boot
 - OpenWRT backported Wifi drivers and MT76 driver compiled out-of-tree
+- tested with Yocto Release Rocko (rev. 16e22f3e37788afb83044f5089d24187d70094bd)
