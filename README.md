@@ -26,3 +26,7 @@ cd micro-iot
 mv meta-linkit7688 ..  
 mv build ..  
 mv meta-micro-iot ..  
+cd ..  
+. oe-init-build-env build  
+bitbake micro-iot-basic-image  
+bitbake -c prepare_sysupgrade micro-iot-basic-image  
