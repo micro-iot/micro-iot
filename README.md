@@ -1,4 +1,6 @@
-# micro-iot
+<p align ="center"><img src=logo-big.svg /></p>  
+
+# Micro-iot
 Yocto based Linux distribution for Internet of Things capable low profile SBCs
 
 ### Supported modules:
