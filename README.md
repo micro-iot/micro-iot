@@ -34,7 +34,7 @@ bitbake micro-iot-basic-image
 bitbake -c prepare_sysupgrade micro-iot-basic-image
 
 ---
-### Quick Start (Next Generation)
+### Quick Start (Next Generation - Release 0.0.1)
 Micro-iot has been restructured by dividing in following repositories:
 * conf_linkit7688
 * meta-micro-iot
@@ -49,12 +49,6 @@ build.sh
 
 ---
 ### Quick Start (Release 0.0.2)
-Micro-iot has been restructured by dividing in following repositories:
-* conf_linkit7688
-* meta-micro-iot
-* meta-linkt7688
-
-Final directories' layout is coordinated by Android's repo tool. Steps to build the project:
 
 repo init -u https://github.com/micro-iot/manifest.git -b default -m linkit7688-0.0.2.xml --repo-url=git://codeaurora.org/tools/repo.git  
 repo sync  
