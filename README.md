@@ -50,6 +50,19 @@ build.sh
 ---
 ### Quick Start (Release 0.0.2)
 
+Release notes version 0.0.2:
+- kernel version 4.14.95 (ported from https://github.com/fagius/micro-iot)
+- ubifs on ubi with dynamic size
+- removed support for JFFS image due to different bootargs needed
+- automated kernel module loading
+- automated ethernet switch reset
+- wired and wireless connectivity fully supported
+
+Defects:
+- wpa supplicant dependent from DBUS
+- no support for remote package update
+- no support for development
+
 repo init -u https://github.com/micro-iot/manifest.git -b default -m linkit7688-0.0.2.xml --repo-url=git://codeaurora.org/tools/repo.git  
 repo sync  
 cd poky  
